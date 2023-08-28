@@ -1,0 +1,83 @@
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* hero background image */
+.hero-image {
+    height: 100vh;
+    background: url("images/hero-image.jpeg");
+    background-size: cover;
+    position: relative;
+}
+
+/* text css above hero image */
+.hero-title {
+    font-size: 4.5rem;
+}
+.hero-desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* services section css */
+.servicesText.card {
+    /* height: 280px; */
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* projects section */
+.card-img-top {
+    height: 300px;
+}
+
+/* footer section */
+#footer {
+    height: 50px;
+}
+.fab {
+    font-size: 36px;
+}
+.fa-linkedin {
+    color: #0e5dd3;
+}
+.fa-github {
+    color: #1c1c1d;
+}
+.fa-discord {
+    color: #2a5ea8;
+}
+.fa-linkedin:hover {
+    color: #013179;
+}
+.fa-github:hover {
+    color: #000000;
+}
+.fa-discord:hover {
+    color: #3340fa;
+}
+
+
+
+
